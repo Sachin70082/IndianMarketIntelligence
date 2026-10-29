@@ -6,12 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:math": "node scripts/test-math.js",
+    "test:levels": "node scripts/test-levels.js",
+    "test:connection": "node scripts/test-connection.js"
   },
   "dependencies": {
+    "@types/ws": "^8.18.2",
+    "lightweight-charts": "^5.2.1",
+    "lucide-react": "^1.61.0",
     "next": "16.4.3",
+    "protobufjs": "^8.8.1",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "ws": "^8.22.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
